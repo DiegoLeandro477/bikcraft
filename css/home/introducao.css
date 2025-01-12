@@ -7,10 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
 }
 
 .introducao-conteudo {
@@ -25,7 +21,6 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  font-size: 62px;
 }
 
 .introducao p {
@@ -34,7 +29,7 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px var(--cor-0);
   }
@@ -45,7 +40,6 @@
     padding-bottom: 10px;
   }
   .introducao h1 {
-    font-size: 32px;
     margin-bottom: 16px;
   }
   .introducao img {

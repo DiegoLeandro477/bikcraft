@@ -3,11 +3,6 @@
 }
 .bicicletas-lista h2 {
   margin-bottom: 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .bicicletas-lista ul {
@@ -15,8 +10,6 @@
   gap: 40px;
   padding: 0 20px 20px 20px;
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
   overflow-x: auto;
 }
 
