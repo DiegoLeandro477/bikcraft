@@ -1,6 +1,6 @@
 .footer-bg {
   background: var(--cor-12);
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -8,8 +8,6 @@
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
   gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer h3 {

@@ -1,0 +1,129 @@
+.bike-bg {
+  background-color: var(--cor-11);
+}
+
+.bike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bikes-img {
+  grid-area: 1/1;
+  display: grid;
+  place-content: start;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.bikes-img img:first-child {
+  grid-column: 1/-1;
+}
+
+.bike-conteudo p {
+  margin-bottom: 32px;
+}
+
+.bike-comprar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.bike-comprar .botao {
+  place-self: center;
+  grid-row: 1/-1;
+}
+
+.bike-comprar span {
+  place-self: center start;
+  background-color: var(--cor-12);
+  grid-column: 2;
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.bike-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 32px;
+  margin-bottom: 40px;
+  background-color: var(--cor-12);
+  border-radius: 5px;
+}
+
+.bike-info h3,
+.bike-info img,
+.bike-info p {
+  margin-bottom: 8px;
+}
+
+.bike-ficha {
+  padding: 32px;
+  background-color: var(--cor-12);
+}
+
+.bike-ficha li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike-ficha li + li {
+  border-top: 1px solid var(--cor-11);
+}
+
+@media (max-width: 900px) {
+  .bikes-img {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .nimbus {
+    grid-template-columns: 1fr;
+  }
+  .bikes-img {
+    grid-area: 2/1;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .bikes-img {
+    grid-template-columns: 1fr;
+  }
+}
+
+.seguro-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
+}
+
+.seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seguro img {
+  height: 800px;
+  object-fit: cover;
+}
+
+.seguro-conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.seguro h2,
+.seguro p {
+  margin-bottom: 10px;
+}
