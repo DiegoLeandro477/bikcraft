@@ -76,10 +76,6 @@
   justify-content: space-between;
 }
 
-.bike-ficha li + li {
-  border-top: 1px solid var(--cor-11);
-}
-
 @media (max-width: 900px) {
   .bikes-img {
     grid-template-columns: 1fr;
@@ -87,7 +83,7 @@
 }
 
 @media (max-width: 800px) {
-  .nimbus {
+  .bike {
     grid-template-columns: 1fr;
   }
   .bikes-img {
@@ -126,4 +122,23 @@
 .seguro h2,
 .seguro p {
   margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .seguro {
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
+  .seguro img {
+    grid-area: 1/1;
+  }
+  .seguro-conteudo {
+    grid-area: 1/1;
+    place-self: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 20px;
+    padding: 40px 8px;
+    border-radius: 10px;
+    text-align: center;
+  }
 }
