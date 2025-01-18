@@ -30,5 +30,8 @@
 /* Bicicletas */
 @import "/css/bicicletas/bike.css";
 
+/* Orçamentos */
+@import "/css/orcamentos/orcamento.css";
+
 /* Contato */
 @import "/css/contatos/contato.css";
